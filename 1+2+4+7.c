@@ -7,6 +7,7 @@ int main()
 	scanf("%d",&n);
 	while(i<=n)
 	{
+		printf("%d\t",term);
 		sum=sum+term;
 		term=term+diff;
 		diff++;
