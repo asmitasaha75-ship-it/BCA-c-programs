@@ -11,7 +11,7 @@ int main()
 		long long fact=1;
 		while(i<=rem)
 		{
-			fact*=1;
+			fact*=i;
 			i++;
 		}
 		sum+=fact;
